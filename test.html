@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        .span {
+          align-content: flex-end;
+          flex-wrap: wrap;
+          display: flex;
+          padding-right: 56px;
+          flex-direction: column;
+        }
+        @media (max-width: 991px) {
+          .span {
+            padding-right: 20px;
+          }
+        }
+        .div {
+          display: flex;
+          justify-content: space-between;
+          gap: 4px;
+        }
+        @media (max-width: 991px) {
+          .div {
+            max-width: 100%;
+            flex-wrap: wrap;
+          }
+        }
+        .span-2 {
+          align-items: center;
+          display: flex;
+          flex-basis: 0%;
+          padding-top: 16px;
+          flex-direction: column;
+        }
+        .div-2 {
+          color: var(--Primary-600, #1e22fb);
+          text-align: center;
+          font-feature-settings: "salt" on;
+          white-space: nowrap;
+          font: 800 16px/125% Manrope, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-2 {
+            white-space: initial;
+          }
+        }
+        .div-3 {
+          align-self: stretch;
+          background-color: var(--primary-500-main, #4b4efc);
+          display: flex;
+          margin-top: 13px;
+          height: 3px;
+          flex-direction: column;
+        }
+        .span-3 {
+          align-items: center;
+          display: flex;
+          flex-grow: 1;
+          flex-basis: 0%;
+          padding-top: 16px;
+          flex-direction: column;
+        }
+        .div-4 {
+          color: var(--Neutral-700, #374151);
+          text-align: center;
+          font-feature-settings: "salt" on;
+          white-space: nowrap;
+          font: 700 14px/143% Manrope, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-4 {
+            white-space: initial;
+          }
+        }
+        .div-5 {
+          align-self: stretch;
+          background-color: var(--Neutral-200, #e5e7eb);
+          display: flex;
+          margin-top: 15px;
+          height: 1px;
+          flex-direction: column;
+        }
+        .span-4 {
+          align-items: center;
+          display: flex;
+          flex-basis: 0%;
+          padding-top: 16px;
+          flex-direction: column;
+        }
+        .div-6 {
+          color: var(--Neutral-700, #374151);
+          text-align: center;
+          font-feature-settings: "salt" on;
+          white-space: nowrap;
+          font: 700 14px/143% Manrope, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-6 {
+            white-space: initial;
+          }
+        }
+        .div-7 {
+          align-self: stretch;
+          background-color: var(--Neutral-200, #e5e7eb);
+          display: flex;
+          margin-top: 15px;
+          height: 1px;
+          flex-direction: column;
+        }
+        .span-5 {
+          align-items: center;
+          display: flex;
+          flex-grow: 1;
+          flex-basis: 0%;
+          padding-top: 16px;
+          flex-direction: column;
+        }
+        .div-8 {
+          color: var(--Neutral-700, #374151);
+          text-align: center;
+          font-feature-settings: "salt" on;
+          white-space: nowrap;
+          font: 700 14px/143% Manrope, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-8 {
+            white-space: initial;
+          }
+        }
+        .div-9 {
+          align-self: stretch;
+          background-color: var(--Neutral-200, #e5e7eb);
+          display: flex;
+          margin-top: 15px;
+          height: 1px;
+          flex-direction: column;
+        }
+        .span-6 {
+          align-items: center;
+          display: flex;
+          flex-grow: 1;
+          flex-basis: 0%;
+          padding-top: 16px;
+          flex-direction: column;
+        }
+        .div-10 {
+          color: var(--Neutral-700, #374151);
+          text-align: center;
+          font-feature-settings: "salt" on;
+          white-space: nowrap;
+          font: 700 14px/143% Manrope, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-10 {
+            white-space: initial;
+          }
+        }
+        .div-11 {
+          align-self: stretch;
+          background-color: var(--Neutral-200, #e5e7eb);
+          display: flex;
+          margin-top: 15px;
+          height: 1px;
+          flex-direction: column;
+        }
+        .span-7 {
+          align-items: center;
+          display: flex;
+          flex-grow: 1;
+          flex-basis: 0%;
+          padding-top: 16px;
+          flex-direction: column;
+        }
+        .div-12 {
+          color: var(--Neutral-700, #374151);
+          text-align: center;
+          font-feature-settings: "salt" on;
+          white-space: nowrap;
+          font: 700 14px/143% Manrope, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-12 {
+            white-space: initial;
+          }
+        }
+        .div-13 {
+          align-self: stretch;
+          background-color: var(--Neutral-200, #e5e7eb);
+          display: flex;
+          margin-top: 15px;
+          height: 1px;
+          flex-direction: column;
+        }
+        .div-14 {
+          color: var(--Neutral-700, #374151);
+          text-align: center;
+          font-feature-settings: "salt" on;
+          align-self: start;
+          white-space: nowrap;
+          margin: 20px 0 0 16px;
+          font: 700 14px/143% Manrope, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-14 {
+            margin-left: 10px;
+            white-space: initial;
+          }
+        }
+        .div-15 {
+          align-self: start;
+          background-color: var(--Neutral-200, #e5e7eb);
+          display: flex;
+          margin-top: 15px;
+          width: 140px;
+          height: 1px;
+          flex-direction: column;
+        }
+      </style>
+    </head>
+    <body>
+        <span class="span">
+            <div class="div">
+                <span class="span-2">
+                    <div class="div-2">User (Login)</div>
+                    <div class="div-3"></div>
+                </span>
+                <span class="span-3">
+                    <div class="div-4">User Role Profile</div>
+                    <div class="div-5"></div>
+                </span>
+                <span class="span-4">
+                    <div class="div-6">User Level</div>
+                    <div class="div-7"></div>
+                </span>
+                <span class="span-5">
+                    <div class="div-8">Level Role Profile</div>
+                    <div class="div-9"></div>
+                </span>
+                <span class="span-6">
+                    <div class="div-10">Change full name/ Email address/
+                        Branch</div>
+                    <div class="div-11"></div>
+                </span>
+                <span class="span-7">
+                    <div class="div-12">Reactivate/Unlock User</div>
+                    <div class="div-13"></div>
+                </span>
+            </div>
+            <div class="div-14">Reset Password</div>
+            <div class="div-15"></div>
+        </span>
+
+    </body>
+</html>
